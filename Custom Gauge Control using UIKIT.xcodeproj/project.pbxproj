@@ -13,6 +13,7 @@
 		7DAEED4121C7A6C300363CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DAEED4021C7A6C300363CD1 /* Assets.xcassets */; };
 		7DAEED4421C7A6C300363CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DAEED4221C7A6C300363CD1 /* LaunchScreen.storyboard */; };
 		7DAEED4C21C7A8BA00363CD1 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAEED4B21C7A8BA00363CD1 /* GaugeView.swift */; };
+		E832217725F685C700263E85 /* meter-gauge.gif in Resources */ = {isa = PBXBuildFile; fileRef = E832217625F685C700263E85 /* meter-gauge.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		7DAEED4321C7A6C300363CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7DAEED4521C7A6C300363CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DAEED4B21C7A8BA00363CD1 /* GaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
+		E832217625F685C700263E85 /* meter-gauge.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "meter-gauge.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				7DAEED3921C7A6B000363CD1 /* AppDelegate.swift */,
 				7DAEED3B21C7A6B000363CD1 /* ViewController.swift */,
+				E832217525F685AF00263E85 /* Assets */,
 				7DAEED4B21C7A8BA00363CD1 /* GaugeView.swift */,
 				7DAEED3D21C7A6B000363CD1 /* Main.storyboard */,
 				7DAEED4021C7A6C300363CD1 /* Assets.xcassets */,
@@ -65,6 +68,14 @@
 				7DAEED4521C7A6C300363CD1 /* Info.plist */,
 			);
 			path = "Custom Gauge Control using UIKIT";
+			sourceTree = "<group>";
+		};
+		E832217525F685AF00263E85 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E832217625F685C700263E85 /* meter-gauge.gif */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				7DAEED4421C7A6C300363CD1 /* LaunchScreen.storyboard in Resources */,
 				7DAEED4121C7A6C300363CD1 /* Assets.xcassets in Resources */,
+				E832217725F685C700263E85 /* meter-gauge.gif in Resources */,
 				7DAEED3F21C7A6B000363CD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
